@@ -6,4 +6,5 @@
     <color name="memoji_accent_dark">#B01B7A</color>     <!-- Rosa oscuro -->
     <color name="memoji_background">#F8F8FF</color>      <!-- Casi blanco -->
     <color name="white">#FFFFFF</color>
+    <color name="memoji_background_dark">#121212</color>
 </resources>

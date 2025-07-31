@@ -4,7 +4,7 @@ import java.io.Serializable // ¡Importante para que nuestra nota viaje entre pa
 import java.util.Date
 
 data class Nota(
-    // Identificador único para cada nota
+
     val id: String = java.util.UUID.randomUUID().toString(),
 
     var titulo: String,
@@ -14,7 +14,11 @@ data class Nota(
     val fechaCreacion: Date = Date(),
 
     var fechaModificacion: Date = Date()
-) : Serializable // Esto le dice al sistema que nuestra nota puede ser "empaquetada" y enviada.
+) : Serializable
+
+
+
+// Esto le dice al sistema que nuestra nota puede ser "empaquetada" y enviada.
 
 /*¿Qué diablos es java.util.UUID.randomUUID().toString()?
 java.util.UUID.randomUUID().toString() es como ir a una fábrica de números de serie infinitos y garantizados como únicos, pulsar un botón que te entrega el siguiente número de serie único,

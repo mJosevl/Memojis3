@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Memojis</string>
+    <string name="menu_dark">Modo oscuro</string>
+    <string name="menu_light">Modo claro</string>
+    <string name="fab_add">Agregar nota</string>
 </resources>

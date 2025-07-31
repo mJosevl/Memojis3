@@ -19,8 +19,7 @@
             android:background="?attr/colorPrimary"
             app:titleTextColor="@android:color/white"
             app:subtitleTextColor="@android:color/white"
-            app:title="Mis Notas" />
-
+            app:title="@string/app_name"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -30,7 +29,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:paddingTop="8dp"
         android:clipToPadding="false"
-        tools:listitem="@layout/item_nota" />
+        tools:listitem="@layout/item_nota"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAgregarNota"
@@ -38,7 +37,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
-        android:contentDescription="Agregar nueva nota"
-        app:srcCompat="@android:drawable/ic_input_add" />
-
+        android:contentDescription="@string/fab_add"
+        app:srcCompat="@android:drawable/ic_input_add"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

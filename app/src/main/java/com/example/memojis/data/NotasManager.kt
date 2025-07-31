@@ -2,7 +2,6 @@ package com.example.memojis.data
 
 import android.content.Context
 import com.example.memojis.model.Nota
-import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.reflect.TypeToken
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

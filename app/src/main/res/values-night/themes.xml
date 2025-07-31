@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Heredamos del mismo tema pero sobre-escribimos colores -->
+    <style name="Theme.Memojis" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/memoji_primary_dark</item>
+        <item name="colorSecondary">@color/memoji_accent_dark</item>
+        <item name="android:windowBackground">@color/memoji_background_dark</item>
+
+    </style>
+</resources>
