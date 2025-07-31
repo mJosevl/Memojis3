@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="memoji_primary">#BB86FC</color>
+    <color name="memoji_primary_dark">#3700B3</color>
+    <color name="memoji_accent">#F48FB1</color>
+    <color name="memoji_accent_dark">#880E4F</color>
+    <color name="memoji_background">#1A1A2E</color>
+    <color name="white">#FFFFFF</color>
+</resources>

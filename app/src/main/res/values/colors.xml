@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="memoji_primary">#7B2FF2</color>         <!-- Púrpura vibrante -->
+    <color name="memoji_primary_dark">#42275A</color>    <!-- Púrpura profundo -->
+    <color name="memoji_accent">#F953C6</color>          <!-- Rosa fuerte -->
+    <color name="memoji_accent_dark">#B01B7A</color>     <!-- Rosa oscuro -->
+    <color name="memoji_background">#F8F8FF</color>      <!-- Casi blanco -->
+    <color name="white">#FFFFFF</color>
+</resources>
